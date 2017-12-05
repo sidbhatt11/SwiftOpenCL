@@ -1,7 +1,8 @@
 import OpenCL
 
 public class Platform : CustomStringConvertible {
-	public var platformId: cl_platform_id
+	
+    public var platformId: cl_platform_id
 	public init(id: cl_platform_id) {
 		platformId = id
 	}

@@ -53,5 +53,5 @@ do {
 	print("c: \(cResult)")
 	
 } catch let error as ClError {
-	print("Error \(error.err). \(error.errString)")
+    print("Error \(error.err). \(String(describing: error.errString))")
 }
